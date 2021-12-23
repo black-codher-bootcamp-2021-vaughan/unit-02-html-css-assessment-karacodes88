@@ -1,46 +1,115 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="shortcut icon" type="image/png" href= "image/favicon.png">
-        <title> portfolio </title>
-    </head>
-   <body>
-    
-         <nav>
-            <div class="logo"> 
-                <logo class="png"></logo>
-            </div>    
-            <ul>
-                 <li><a href=""class="active">About</a></li>
-                 <li><a href="">Portfolio</a></li>
-                 <li><a href="">Contact</a></li>
-            </ul>
-         </nav> 
-        
-         <body> 
-        
-       
-        <section><div class="container">
-            <ul class="timeline">
-          <li class="active">Attended City University of London<br>
-                             studied Radiography and Oncology. </li>
-                             <li>Worked in hospitality a restaurant<br> 
-                             called Carluccio's. </li>
-                             <li>Became a stay at home 🤱🏿</li>
-                             <li>Began taking pictures as hobby.</li>
-                             <li>Became a Photographer professionally,<br>
-                                 started a small business </li>
-                             <li> Joined Black Codher Bootcamp </li>
-      
-        </ul>
-      </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="png" href= "_favicon.png_">
+    <script src="https://kit.fontawesome.com/1bf7ddefa6.js" crossorigin="anonymous"></script>
+   
+_
+</head>
+<header>
+ <body>
+  <div class="logo">
+    <a href="#"><img class="png" src="favicon.png" width=100px></a> 
 
-       </section>
-       <footer></footer>
-    </section>
-        
-        </body>
-        </html>
+  </div>
+   <button class="nav-toggle" aria-label="toggle navigation">
+       <span class="hamburger"></span>
+   </button> 
+   <nav class="nav__list">
+       <ul class="nav__list">
+           <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+           <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+           <li class="nav__item"><a href="#" 
+            class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#"
+            class="nav__link">Contact</a></li>
+       </ul>
+   </nav>  
+</header>
+<body> 
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Kara</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+<a href="#"><img class="profile-image" src="kazza.jpg" width=250px></a> 
+
+</section>
+
+
+<!-- about me -->
+
+   <section class="about me" id="about">
+    <h2 class="section__title section__title--about me"> About Me</h2>
+            <div class="about me">
+                <div class="about">
+                  <h3> I'am a!!!</h3>
+        <p>Beekeeper, Photographer and mother based in Birmingham.</p>
+            </div>   <!-- timeline -->
+    
+     <div class="about">
+        <h3>Attended City University of London </h3> 
+     <p>Studied Radiography and Oncology.</p>
+    </div> <!-- timeline -->
+
+ <div class="about"></div>
+       <h3>Worked in hospitality</h3> 
+     <p>A restaurant called Carluccio's for five years.</p>
+    </div> <!-- timeline -->
+
+ <div class="about me"></div>
+       <h3>Became a stay at home 🤱🏿</h3> 
+     <p>Started a family, became a mother of three.</p>  <!-- timeline -->
+</div>
+
+<div class="about me"></div>
+       <h3>Became a Photographer professionally,</h3> 
+     <p>Started a small business.</p>
+</div> <!-- timeline -->
+<a href="work" class="btn">My work</a>
+</section>
+
+<!-- Projects -->
+<section class="Projects" id="project">
+   <h2 class="section__title section__title--projects">Projects</h2>
+   <p class="section__subtitle section__subtitle--Project"></p>
+<div class="Projects__body">
+    <div class= "project">
+       <h3>Lets See</h3> 
+    <ul> 
+            <liv> JavaScript group project</liv>
+            <liv> React project</liv>
+            <liv>Node project </liv>
+            <liv>MongoDB projec</liv>
+            <liv> Personal project</liv>
+     </ul>
+</div>
+<div class="project"> 
+    <img src="kara.png" width="150px" class= "avatar thick gold border" border-width="50px"
+    alt="avatar">
+
+<i id="html-icon" class="fab fa-html5 fa-10x"></i>
+        <liv><i id="css-icon" class="fab fa-css3-alt fa-10x"></i></liv>
+        <liv><i id="js-icon" class="fab fa-js fa-10x"></i></liv>
+        <liv><i id="nodejs-icon" class="fab fa-node-js fa-10x"></i></liv></div>
+</section>
+
+<footer>
+    
+    <a href="mailto:karawhite59@gmail.com" class="footer__link">hello@karawhite59</a>
+            <ul class="social-media">
+                <li class="social-media"><a class="social-list__link" href="https://github"><i class="fab fa-github"></i>
+                    <script src="js/index.js"></script>
+                    <p id="copyright"> Made by Kara White &copy 2021</p> 
+</footer>
+
+
+
+</body>
+</html>
